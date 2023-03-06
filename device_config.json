@@ -1,0 +1,2388 @@
+{
+  "num_ff_per_slice": 16,
+  "num_lut_per_slice": 8,
+  "tile_distribution": [
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "INTF_GT_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "NULL",
+    "INT",
+    "INTF_HB_LOCF_TR_TILE",
+    "NULL",
+    "INTF_HB_LOCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "NULL",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "NULL",
+    "INT",
+    "INTF_LOCF_TR_TILE",
+    "BRAM_LOCF_TR_TILE",
+    "URAM_LOCF_TL_TILE",
+    "INTF_LOCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "NULL",
+    "INT",
+    "CLE_W_CORE",
+    "CLE_BC_CORE",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "INTF_CFRM_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "NULL",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "BRAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "NULL",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "BRAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "NULL",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "BRAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "DSP_ROCF_T_TILE",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "NULL",
+    "NULL",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "BRAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_ROCF_TR_TILE",
+    "BRAM_ROCF_TR_TILE",
+    "NULL",
+    "URAM_ROCF_TL_TILE",
+    "INTF_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_HB_ROCF_TR_TILE",
+    "NULL",
+    "INTF_HB_ROCF_TL_TILE",
+    "INT",
+    "NULL",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "CLE_W_CORE",
+    "SLL",
+    "CLE_E_CORE",
+    "INT",
+    "INTF_GT_TR_TILE",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL",
+    "NULL"
+  ],
+  "clock_region_top_bottom_row_indices": [
+    [
+      786,
+      791
+    ],
+    [
+      666,
+      785
+    ],
+    [
+      546,
+      665
+    ],
+    [
+      426,
+      545
+    ],
+    [
+      363,
+      425
+    ],
+    [
+      242,
+      362
+    ],
+    [
+      122,
+      241
+    ],
+    [
+      0,
+      121
+    ]
+  ],
+  "slot_region_left_right_indices": [
+    [
+      1,
+      107
+    ],
+    [
+      115,
+      144
+    ],
+    [
+      153,
+      293
+    ],
+    [
+      301,
+      427
+    ],
+    [
+      435,
+      561
+    ],
+    [
+      569,
+      658
+    ]
+  ],
+  "slot_to_pblock_def": {
+    "X0Y0": "create_pblock X0Y0\nresize_pblock X0Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y0]",
+    "X0Y1": "create_pblock X0Y1\nresize_pblock X0Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y1]",
+    "X0Y2": "create_pblock X0Y2\nresize_pblock X0Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y2]",
+    "X0Y3": "create_pblock X0Y3\nresize_pblock X0Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y3]",
+    "X0Y4": "create_pblock X0Y4\nresize_pblock X0Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y4]",
+    "X0Y5": "create_pblock X0Y5\nresize_pblock X0Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y5]",
+    "X0Y6": "create_pblock X0Y6\nresize_pblock X0Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y6]",
+    "X0Y7": "create_pblock X0Y7\nresize_pblock X0Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 1 &&\n    GRID_POINT_X <= 107 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X0Y7]",
+    "X1Y0": "create_pblock X1Y0\nresize_pblock X1Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y0]",
+    "X1Y1": "create_pblock X1Y1\nresize_pblock X1Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y1]",
+    "X1Y2": "create_pblock X1Y2\nresize_pblock X1Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y2]",
+    "X1Y3": "create_pblock X1Y3\nresize_pblock X1Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y3]",
+    "X1Y4": "create_pblock X1Y4\nresize_pblock X1Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y4]",
+    "X1Y5": "create_pblock X1Y5\nresize_pblock X1Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y5]",
+    "X1Y6": "create_pblock X1Y6\nresize_pblock X1Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y6]",
+    "X1Y7": "create_pblock X1Y7\nresize_pblock X1Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 115 &&\n    GRID_POINT_X <= 144 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X1Y7]",
+    "X2Y0": "create_pblock X2Y0\nresize_pblock X2Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y0]",
+    "X2Y1": "create_pblock X2Y1\nresize_pblock X2Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y1]",
+    "X2Y2": "create_pblock X2Y2\nresize_pblock X2Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y2]",
+    "X2Y3": "create_pblock X2Y3\nresize_pblock X2Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y3]",
+    "X2Y4": "create_pblock X2Y4\nresize_pblock X2Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y4]",
+    "X2Y5": "create_pblock X2Y5\nresize_pblock X2Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y5]",
+    "X2Y6": "create_pblock X2Y6\nresize_pblock X2Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y6]",
+    "X2Y7": "create_pblock X2Y7\nresize_pblock X2Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 153 &&\n    GRID_POINT_X <= 293 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X2Y7]",
+    "X3Y0": "create_pblock X3Y0\nresize_pblock X3Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y0]",
+    "X3Y1": "create_pblock X3Y1\nresize_pblock X3Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y1]",
+    "X3Y2": "create_pblock X3Y2\nresize_pblock X3Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y2]",
+    "X3Y3": "create_pblock X3Y3\nresize_pblock X3Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y3]",
+    "X3Y4": "create_pblock X3Y4\nresize_pblock X3Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y4]",
+    "X3Y5": "create_pblock X3Y5\nresize_pblock X3Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y5]",
+    "X3Y6": "create_pblock X3Y6\nresize_pblock X3Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y6]",
+    "X3Y7": "create_pblock X3Y7\nresize_pblock X3Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 301 &&\n    GRID_POINT_X <= 427 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X3Y7]",
+    "X4Y0": "create_pblock X4Y0\nresize_pblock X4Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y0]",
+    "X4Y1": "create_pblock X4Y1\nresize_pblock X4Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y1]",
+    "X4Y2": "create_pblock X4Y2\nresize_pblock X4Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y2]",
+    "X4Y3": "create_pblock X4Y3\nresize_pblock X4Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y3]",
+    "X4Y4": "create_pblock X4Y4\nresize_pblock X4Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y4]",
+    "X4Y5": "create_pblock X4Y5\nresize_pblock X4Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y5]",
+    "X4Y6": "create_pblock X4Y6\nresize_pblock X4Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y6]",
+    "X4Y7": "create_pblock X4Y7\nresize_pblock X4Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 435 &&\n    GRID_POINT_X <= 561 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X4Y7]",
+    "X5Y0": "create_pblock X5Y0\nresize_pblock X5Y0 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 791 &&\n    GRID_POINT_Y >= 786\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y0]",
+    "X5Y1": "create_pblock X5Y1\nresize_pblock X5Y1 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 785 &&\n    GRID_POINT_Y >= 666\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y1]",
+    "X5Y2": "create_pblock X5Y2\nresize_pblock X5Y2 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 665 &&\n    GRID_POINT_Y >= 546\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y2]",
+    "X5Y3": "create_pblock X5Y3\nresize_pblock X5Y3 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 545 &&\n    GRID_POINT_Y >= 426\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y3]",
+    "X5Y4": "create_pblock X5Y4\nresize_pblock X5Y4 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 425 &&\n    GRID_POINT_Y >= 363\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y4]",
+    "X5Y5": "create_pblock X5Y5\nresize_pblock X5Y5 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 362 &&\n    GRID_POINT_Y >= 242\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y5]",
+    "X5Y6": "create_pblock X5Y6\nresize_pblock X5Y6 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 241 &&\n    GRID_POINT_Y >= 122\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y6]",
+    "X5Y7": "create_pblock X5Y7\nresize_pblock X5Y7 -add [\n  get_sites -of_objects [get_tiles -filter {\n    GRID_POINT_X >= 569 &&\n    GRID_POINT_X <= 658 &&\n    GRID_POINT_Y <= 121 &&\n    GRID_POINT_Y >= 0\n  }] -filter { NAME !~ \"NOC*\" && NAME !~ \"RCLK*\" && NAME !~ \"NPI*\" } ]\nset_property SNAPPING_MODE ON [get_pblocks X5Y7]"
+  },
+  "slot_to_grid_coordinates": {
+    "X0Y0": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 786
+    },
+    "X0Y1": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 666
+    },
+    "X0Y2": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 546
+    },
+    "X0Y3": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 426
+    },
+    "X0Y4": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 363
+    },
+    "X0Y5": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 242
+    },
+    "X0Y6": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 122
+    },
+    "X0Y7": {
+      "down_left_grid_x": 1,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 107,
+      "up_right_grid_y": 0
+    },
+    "X1Y0": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 786
+    },
+    "X1Y1": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 666
+    },
+    "X1Y2": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 546
+    },
+    "X1Y3": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 426
+    },
+    "X1Y4": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 363
+    },
+    "X1Y5": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 242
+    },
+    "X1Y6": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 122
+    },
+    "X1Y7": {
+      "down_left_grid_x": 115,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 144,
+      "up_right_grid_y": 0
+    },
+    "X2Y0": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 786
+    },
+    "X2Y1": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 666
+    },
+    "X2Y2": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 546
+    },
+    "X2Y3": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 426
+    },
+    "X2Y4": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 363
+    },
+    "X2Y5": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 242
+    },
+    "X2Y6": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 122
+    },
+    "X2Y7": {
+      "down_left_grid_x": 153,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 293,
+      "up_right_grid_y": 0
+    },
+    "X3Y0": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 786
+    },
+    "X3Y1": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 666
+    },
+    "X3Y2": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 546
+    },
+    "X3Y3": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 426
+    },
+    "X3Y4": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 363
+    },
+    "X3Y5": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 242
+    },
+    "X3Y6": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 122
+    },
+    "X3Y7": {
+      "down_left_grid_x": 301,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 427,
+      "up_right_grid_y": 0
+    },
+    "X4Y0": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 786
+    },
+    "X4Y1": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 666
+    },
+    "X4Y2": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 546
+    },
+    "X4Y3": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 426
+    },
+    "X4Y4": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 363
+    },
+    "X4Y5": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 242
+    },
+    "X4Y6": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 122
+    },
+    "X4Y7": {
+      "down_left_grid_x": 435,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 561,
+      "up_right_grid_y": 0
+    },
+    "X5Y0": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 791,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 786
+    },
+    "X5Y1": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 785,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 666
+    },
+    "X5Y2": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 665,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 546
+    },
+    "X5Y3": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 545,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 426
+    },
+    "X5Y4": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 425,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 363
+    },
+    "X5Y5": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 362,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 242
+    },
+    "X5Y6": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 241,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 122
+    },
+    "X5Y7": {
+      "down_left_grid_x": 569,
+      "down_left_grid_y": 121,
+      "up_right_grid_x": 658,
+      "up_right_grid_y": 0
+    }
+  },
+  "resources": {
+    "X3Y2": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X2Y3": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 122880
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X1Y5": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X1Y2": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X0Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 27648
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X5Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 73728
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 144
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X5Y1": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 70656
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 35328
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 140
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X1Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X0Y1": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X5Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X1Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 7680
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 12
+      }
+    },
+    "X3Y3": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X4Y2": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X2Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X3Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X3Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X1Y3": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X4Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X3Y5": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X4Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 27648
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 96
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X4Y3": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X5Y5": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 73728
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 144
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X5Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 73728
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 144
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X3Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X3Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 27648
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 96
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X0Y2": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X2Y2": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 122880
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X5Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 18432
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 72
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 12
+      }
+    },
+    "X4Y1": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 105984
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 52992
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 184
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 368
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 46
+      }
+    },
+    "X0Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 18432
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 12
+      }
+    },
+    "X2Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 122880
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X0Y5": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X4Y5": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X0Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 27648
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X2Y5": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 122880
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X0Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X0Y3": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X4Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X5Y3": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 73728
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 144
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X1Y1": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 29440
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 14720
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 46
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 23
+      }
+    },
+    "X5Y2": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 73728
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 36864
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 144
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X1Y6": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 15360
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X1Y0": {
+      "FF": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "LUT": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "BRAM": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "DSP": {
+        "used_percentage": 0,
+        "available": 0
+      },
+      "URAM": {
+        "used_percentage": 0,
+        "available": 0
+      }
+    },
+    "X2Y1": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 117760
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 58880
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 184
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 368
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 46
+      }
+    },
+    "X2Y4": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 30720
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 96
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 24
+      }
+    },
+    "X4Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 110592
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 55296
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    },
+    "X3Y1": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 105984
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 52992
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 184
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 368
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 46
+      }
+    },
+    "X2Y7": {
+      "FF": {
+        "used_percentage": 0.0,
+        "available": 122880
+      },
+      "LUT": {
+        "used_percentage": 0.0,
+        "available": 61440
+      },
+      "BRAM": {
+        "used_percentage": 0.0,
+        "available": 192
+      },
+      "DSP": {
+        "used_percentage": 0.0,
+        "available": 384
+      },
+      "URAM": {
+        "used_percentage": 0.0,
+        "available": 48
+      }
+    }
+  },
+  "num_row": 8,
+  "num_col": 6,
+  "wire_capacity": {
+    "X0Y0": {
+      "X1Y0": 1760,
+      "X0Y1": 28
+    },
+    "X1Y0": {
+      "X0Y0": 1760,
+      "X2Y0": 1460,
+      "X1Y1": 4656
+    },
+    "X0Y1": {
+      "X0Y0": 28,
+      "X1Y1": 39488,
+      "X0Y2": 5240
+    },
+    "X1Y1": {
+      "X0Y1": 39488,
+      "X1Y0": 4656,
+      "X2Y1": 47088,
+      "X1Y2": 5459
+    },
+    "X0Y2": {
+      "X0Y1": 5240,
+      "X1Y2": 39552,
+      "X0Y3": 17965
+    },
+    "X1Y2": {
+      "X0Y2": 39552,
+      "X1Y1": 5459,
+      "X2Y2": 47232,
+      "X1Y3": 5455
+    },
+    "X0Y3": {
+      "X0Y2": 17965,
+      "X1Y3": 39552,
+      "X0Y4": 586
+    },
+    "X1Y3": {
+      "X0Y3": 39552,
+      "X1Y2": 5455,
+      "X2Y3": 46800,
+      "X1Y4": 5351
+    },
+    "X0Y4": {
+      "X0Y3": 586,
+      "X1Y4": 22848,
+      "X0Y5": 4
+    },
+    "X1Y4": {
+      "X0Y4": 22848,
+      "X1Y3": 5351,
+      "X2Y4": 22848,
+      "X1Y5": 960
+    },
+    "X0Y5": {
+      "X0Y4": 4,
+      "X1Y5": 39552,
+      "X0Y6": 586
+    },
+    "X1Y5": {
+      "X0Y5": 39552,
+      "X1Y4": 960,
+      "X2Y5": 46016,
+      "X1Y6": 5455
+    },
+    "X0Y6": {
+      "X0Y5": 586,
+      "X1Y6": 45696,
+      "X0Y7": 8099
+    },
+    "X1Y6": {
+      "X0Y6": 45696,
+      "X1Y5": 5455,
+      "X2Y6": 47232,
+      "X1Y7": 5459
+    },
+    "X0Y7": {
+      "X0Y6": 8099,
+      "X1Y7": 45696
+    },
+    "X1Y7": {
+      "X0Y7": 45696,
+      "X1Y6": 5459,
+      "X2Y7": 47232
+    },
+    "X2Y0": {
+      "X1Y0": 1460,
+      "X3Y0": 1459,
+      "X2Y1": 16884
+    },
+    "X2Y1": {
+      "X1Y1": 47088,
+      "X2Y0": 16884,
+      "X3Y1": 47452,
+      "X2Y2": 21361
+    },
+    "X2Y2": {
+      "X1Y2": 47232,
+      "X2Y1": 21361,
+      "X3Y2": 47616,
+      "X2Y3": 21347
+    },
+    "X2Y3": {
+      "X1Y3": 46800,
+      "X2Y2": 21347,
+      "X3Y3": 47076,
+      "X2Y4": 20983
+    },
+    "X2Y4": {
+      "X1Y4": 22848,
+      "X2Y3": 20983,
+      "X3Y4": 22852,
+      "X2Y5": 3364
+    },
+    "X2Y5": {
+      "X1Y5": 46016,
+      "X2Y4": 3364,
+      "X3Y5": 46100,
+      "X2Y6": 21347
+    },
+    "X2Y6": {
+      "X1Y6": 47232,
+      "X2Y5": 21347,
+      "X3Y6": 47616,
+      "X2Y7": 21361
+    },
+    "X2Y7": {
+      "X1Y7": 47232,
+      "X2Y6": 21361,
+      "X3Y7": 47620
+    },
+    "X3Y0": {
+      "X2Y0": 1459,
+      "X4Y0": 361,
+      "X3Y1": 15718
+    },
+    "X3Y1": {
+      "X2Y1": 47452,
+      "X3Y0": 15718,
+      "X4Y1": 47452,
+      "X3Y2": 19515
+    },
+    "X3Y2": {
+      "X2Y2": 47616,
+      "X3Y1": 19515,
+      "X4Y2": 47616,
+      "X3Y3": 19502
+    },
+    "X3Y3": {
+      "X2Y3": 47076,
+      "X3Y2": 19502,
+      "X4Y3": 47076,
+      "X3Y4": 19164
+    },
+    "X3Y4": {
+      "X2Y4": 22852,
+      "X3Y3": 19164,
+      "X4Y4": 22852,
+      "X3Y5": 3124
+    },
+    "X3Y5": {
+      "X2Y5": 46100,
+      "X3Y4": 3124,
+      "X4Y5": 46100,
+      "X3Y6": 19502
+    },
+    "X3Y6": {
+      "X2Y6": 47616,
+      "X3Y5": 19502,
+      "X4Y6": 47616,
+      "X3Y7": 19515
+    },
+    "X3Y7": {
+      "X2Y7": 47620,
+      "X3Y6": 19515,
+      "X4Y7": 47620
+    },
+    "X4Y0": {
+      "X3Y0": 361,
+      "X5Y0": 821,
+      "X4Y1": 15716
+    },
+    "X4Y1": {
+      "X3Y1": 47452,
+      "X4Y0": 15716,
+      "X5Y1": 47452,
+      "X4Y2": 19515
+    },
+    "X4Y2": {
+      "X3Y2": 47616,
+      "X4Y1": 19515,
+      "X5Y2": 47616,
+      "X4Y3": 19502
+    },
+    "X4Y3": {
+      "X3Y3": 47076,
+      "X4Y2": 19502,
+      "X5Y3": 47076,
+      "X4Y4": 19164
+    },
+    "X4Y4": {
+      "X3Y4": 22852,
+      "X4Y3": 19164,
+      "X5Y4": 22848,
+      "X4Y5": 3124
+    },
+    "X4Y5": {
+      "X3Y5": 46100,
+      "X4Y4": 3124,
+      "X5Y5": 46100,
+      "X4Y6": 19502
+    },
+    "X4Y6": {
+      "X3Y6": 47616,
+      "X4Y5": 19502,
+      "X5Y6": 47616,
+      "X4Y7": 19515
+    },
+    "X4Y7": {
+      "X3Y7": 47620,
+      "X4Y6": 19515,
+      "X5Y7": 47616
+    },
+    "X5Y0": {
+      "X4Y0": 821,
+      "X5Y1": 8730
+    },
+    "X5Y1": {
+      "X4Y1": 47452,
+      "X5Y0": 8730,
+      "X5Y2": 11137
+    },
+    "X5Y2": {
+      "X4Y2": 47616,
+      "X5Y1": 11137,
+      "X5Y3": 11134
+    },
+    "X5Y3": {
+      "X4Y3": 47076,
+      "X5Y2": 11134,
+      "X5Y4": 10952
+    },
+    "X5Y4": {
+      "X4Y4": 22848,
+      "X5Y3": 10952,
+      "X5Y5": 1680
+    },
+    "X5Y5": {
+      "X4Y5": 46100,
+      "X5Y4": 1680,
+      "X5Y6": 11134
+    },
+    "X5Y6": {
+      "X4Y6": 47616,
+      "X5Y5": 11134,
+      "X5Y7": 11141
+    },
+    "X5Y7": {
+      "X4Y7": 47616,
+      "X5Y6": 11141
+    }
+  }
+}

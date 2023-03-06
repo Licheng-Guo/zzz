@@ -1,0 +1,40 @@
+{
+    "op_groups": [
+        [
+            {
+                "target_node": {
+                    "down_left_x": 0,
+                    "down_left_y": 0,
+                    "up_right_x": 5,
+                    "up_right_y": 7
+                },
+                "child_num": 2,
+                "default_usage_limit": {
+                    "FF": 0.75,
+                    "LUT": 0.75,
+                    "BRAM": 0.8,
+                    "DSP": 2.5,
+                    "URAM": 0.8
+                },
+                "children_configs": [
+                    {
+                        "coordinates": {
+                            "down_left_x": 0,
+                            "down_left_y": 0,
+                            "up_right_x": 5,
+                            "up_right_y": 4
+                        }
+                    },
+                    {
+                        "coordinates": {
+                            "down_left_x": 0,
+                            "down_left_y": 5,
+                            "up_right_x": 5,
+                            "up_right_y": 7
+                        }
+                    }
+                ]
+            }
+        ]
+    ]
+}
